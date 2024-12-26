@@ -8,9 +8,9 @@ let indefinido;
 
 console.log(`${indefinido} | ${typeof indefinido}`);
 
-console.log("null - nulo, vazio");
+console.log("null = nulo, vazio");
 
-console.log("undefined - não definido");
+console.log("undefined = não definido");
 
 console.log(`null === undefined: ${null === undefined}`);
 

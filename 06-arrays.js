@@ -62,3 +62,11 @@ console.log(animais);
 console.log(animais.length);
 
 console.log(`O ${animais[3]} é o rei da selva!`);
+
+console.log("");
+
+const construtorArray = new Array("Eu", "Tu", "Ele");
+
+console.log(construtorArray);
+
+console.log(Array.from(construtorArray[2]));

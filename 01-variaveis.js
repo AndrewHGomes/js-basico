@@ -88,10 +88,6 @@ console.log("var x antes do bloco =", x);
 
 console.log("var x depois do bloco =", x);
 
-console.log("");
-
-//------------------------------------------------------------
-
 let y = 10;
 const t = 51;
 
@@ -110,3 +106,33 @@ console.log("const t antes do bloco =", t);
 
 console.log("let y depois do bloco =", y);
 console.log("const t depois do bloco =", y);
+
+console.log("");
+
+//------------------------------------------------------------
+
+const _umTeste = "Iniciada com underscore";
+const $outroTeste = "Iniciada com cifrão";
+
+console.log(`${_umTeste} | ${$outroTeste}`);
+
+console.log("");
+
+//------------------------------------------------------------
+
+var nome;
+
+nome = "Henrique";
+
+console.log(nome, "-", typeof nome);
+
+let idade, humano;
+
+idade = 36;
+humano = true;
+
+console.log("O " + nome + " tem " + idade + " anos.");
+
+nome = "Andrew";
+
+console.log(`O ${nome} tem ${idade} anos.`);
