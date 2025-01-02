@@ -22,3 +22,5 @@ console.log("");
 for (let nome of nomes) {
   console.log(`For of: ${nome}`);
 }
+
+console.log("");
