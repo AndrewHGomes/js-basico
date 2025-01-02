@@ -4,7 +4,7 @@ console.log("Andrew " + "Henrique" + " Gomes");
 
 console.log(`Expressão JS: 1 + 1 = ${1 + 1}`);
 
-const umTexto = "String é uma Lista/Conjunto de Caracteres";
+const umTexto = "  String é uma Lista/Conjunto de Caracteres    ";
 
 console.log(`${umTexto} | ${typeof umTexto}`);
 
@@ -29,13 +29,3 @@ console.log(meuNome);
 console.log("");
 
 //------------------------------------------------------------
-
-console.log(umTexto.toUpperCase());
-console.log(umTexto.toLowerCase());
-console.log(umTexto.includes("Lista"));
-
-const fraseArray = umTexto.split(" ");
-console.log(fraseArray);
-
-const arrayFrase = fraseArray.join(" ");
-console.log(arrayFrase);

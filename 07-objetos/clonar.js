@@ -1,20 +1,25 @@
-const obj1 = {
+const objTeste = {
   a: "teste",
   b: 50,
 };
 
-console.log("obj1:", obj1);
+console.log("objTeste:", objTeste);
 
-const referencia = obj1;
+const referencia = objTeste;
 
 console.log("referencia:", referencia);
+console.log("referencia é identico a objTeste? ", referencia === objTeste);
 
 const cloneAssign = {};
 
-Object.assign(cloneAssign, obj1);
+Object.assign(cloneAssign, objTeste);
 
 console.log("cloneAssign:", cloneAssign);
+console.log("cloneAssign é identico a objTeste? ", cloneAssign === objTeste);
 
-const cloneSpread = { ...obj1 };
+const cloneSpread = { ...objTeste };
 
 console.log("cloneSpread:", cloneSpread);
+console.log("cloneSpread é identico a objTeste? ", cloneSpread === objTeste);
+
+console.log("");

@@ -24,3 +24,7 @@ for (let nome of nomes) {
 }
 
 console.log("");
+
+nomes.forEach((nome, index) => {
+  console.log(`For Each: ${nome} na posição ${index}`);
+});

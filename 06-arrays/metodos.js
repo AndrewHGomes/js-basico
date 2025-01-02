@@ -33,4 +33,10 @@ const substituir = concatenar.splice(
 );
 console.log(substituir, concatenar);
 
+const reverter = [...nomes].reverse();
+console.log(reverter);
+
+const emOrdem = [...nomes].sort();
+console.log(emOrdem);
+
 console.log("");

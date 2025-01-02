@@ -6,6 +6,10 @@ const pessoa = {
   profissao: "Desenvolvedor Web",
   empresa: "D'affari Sistemas de Informação",
   colegas: ["Matheus", "Carlos", "Daniela", "Nathan"],
+
+  minhaProfissao() {
+    return `Sou ${this.profissao} na ${this.empresa}.`;
+  },
 };
 
 console.table(pessoa);
