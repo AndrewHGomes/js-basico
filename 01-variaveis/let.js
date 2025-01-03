@@ -1,15 +1,18 @@
-console.log("let:");
-
-let comLet = "Declarada com let";
-
+let comLet = "Variável com let";
 console.log(comLet);
 
 // console.log(hoistingLet);
-
-let hoistingLet = "Não aceita hoisting";
-
+let hoistingLet = "let não tem hoisting";
 console.log(hoistingLet);
 
-comLet = "Mudei o valor let";
+let letScope = "Escopo global";
+console.log("Antes do bloco:", letScope);
 
-console.log(comLet);
+{
+  let letScope = "Escopo do bloco";
+  console.log("Dentro do bloco:", letScope);
+}
+
+console.log("Depois do bloco:", letScope);
+
+console.log("");

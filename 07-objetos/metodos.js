@@ -3,6 +3,7 @@ pessoa.apresentarSe = function () {
 };
 
 console.log(pessoa.apresentarSe());
+console.log(pessoa.minhaProfissao());
 
 console.log("");
 

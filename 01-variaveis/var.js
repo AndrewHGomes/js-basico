@@ -1,15 +1,18 @@
-console.log("var:");
-
-var comVar = "Declarada com var";
-
+var comVar = "Variável com var";
 console.log(comVar);
 
 console.log(hoistingVar);
-
-var hoistingVar = "Aceita hoisting com resultado undefined";
-
+var hoistingVar = "var tem hoisting";
 console.log(hoistingVar);
 
-comVar = "Mudei o valor var";
+var varScope = "Escopo global";
+console.log("Antes do bloco:", varScope);
 
-console.log(comVar);
+{
+  var varScope = "Escopo do bloco";
+  console.log("Dentro do bloco:", varScope);
+}
+
+console.log("Depois do bloco:", varScope);
+
+console.log("");

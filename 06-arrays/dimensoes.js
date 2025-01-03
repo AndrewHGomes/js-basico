@@ -33,12 +33,12 @@ console.log(multi[3]);
 
 console.log("");
 
-for (let i = 0; i < multi.length; i++) {
-  for (let y = 0; y < multi[i].length; y++) {
-    console.log(
-      `Posição: ${i} | ${y}
-       Valor: ${multi[i][y]}
-       `
-    );
-  }
-}
+// for (let i = 0; i < multi.length; i++) {
+//   for (let y = 0; y < multi[i].length; y++) {
+//     console.log(
+//       `Posição: ${i} | ${y}
+//        Valor: ${multi[i][y]}
+//        `
+//     );
+//   }
+// }

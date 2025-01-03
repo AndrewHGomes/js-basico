@@ -1,17 +1,18 @@
-console.log("const:");
-
-const comConst = "Declarada com const";
-
+const comConst = "Variável com const";
 console.log(comConst);
 
 // console.log(hoistingConst);
+const hoistingConst = "const não tem hoisting";
+console.log(hoistingConst);
 
-const hoistingConst = "Não aceita hoisting";
+const constScope = "Escopo global";
+console.log("Antes do bloco:", constScope);
 
-console.log(hoistingLet);
+{
+  const constScope = "Escopo do bloco";
+  console.log("Dentro do bloco:", constScope);
+}
 
-// comConst = "NUNCA MUDA o valor";
-
-console.log(comConst, "NUNCA MUDA o valor");
+console.log("Depois do bloco:", constScope);
 
 console.log("");
