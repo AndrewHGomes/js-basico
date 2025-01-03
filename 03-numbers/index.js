@@ -1,5 +1,3 @@
-console.log("NUMBERS:");
-
 const intNumber = 22;
 
 console.log(`${intNumber} | ${typeof intNumber}`);
