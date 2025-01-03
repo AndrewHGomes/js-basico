@@ -1,34 +1,27 @@
-<<<<<<< HEAD
-=======
-console.log("STRINGS:");
-
-console.log("Andrew " + "Henrique" + " Gomes");
-
-console.log(`Expressão JS: 1 + 1 = ${1 + 1}`);
-
-const umTexto = "  String é uma Lista/Conjunto de Caracteres    ";
-
+const umTexto = "  String é uma lista de caracteres. É um texto.  ";
 console.log(`${umTexto} | ${typeof umTexto}`);
 
-const comAspas = "escritas entre aspas";
+console.log("");
 
-console.log("Concatenação: Para concatenar, as strings devem ser " + comAspas);
-
-const comCrase = `escritas entre crases`;
-
-console.log(`Interpolação: Para interpolar, as strings devem ser ${comCrase}`);
+const aspas = "Escritas entre aspas";
+const crase = `Escritas entre crases`;
+console.log(`Strings podem ser ${aspas}, ou ${crase}.`);
 
 console.log("");
 
-//------------------------------------------------------------
+const outroTexto = new String("Meu novo texto instanciado de String.");
+const instancia1 = umTexto instanceof String;
+const instancia2 = outroTexto instanceof String;
 
-let meuNome = "Andrew";
-
-meuNome += " " + "Gomes";
-
-console.log(meuNome);
+console.log(`umTexto é instância do Objeto String? ${instancia1}`);
+console.log(`outroTexto é instância do Objeto String? ${instancia2}`);
 
 console.log("");
 
-//------------------------------------------------------------
->>>>>>> d9efd9a31d1d52dfcc9154ccd1886cac83c41f34
+const nome = "Andrew";
+const sobrenome = "Gomes";
+
+console.log("Concatenar: Meu nome é " + nome + " " + sobrenome);
+console.log(`Interpolar: Meu nome é ${nome} ${sobrenome}`);
+
+console.log("");
