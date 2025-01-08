@@ -1,16 +1,32 @@
 console.log("Início do programa:");
 
-const hora = new Date().getHours();
-const minutos = new Date().getMinutes();
+let hora = new Date().getHours();
+let minutos = new Date().getMinutes();
 
 let horaCompleta = "";
 
-if (hora < 10 && minutos < 10) {
-  horaCompleta = `0${hora}:0${minutos}`;
+if (hora < 10) {
+  hora = `0${hora}`;
 } else {
-  horaCompleta = `${hora}:${minutos}`;
+  hora;
 }
 
-const manha = horaCompleta < "12:00" ? "Bom dia" : "Boa tarde";
+if (minutos < 10) {
+  minutos = `0${minutos}`;
+} else {
+  minutos;
+}
 
-console.log(`Hora atual: ${horaCompleta} -> ${manha}`);
+horaCompleta = `${hora}:${minutos}`;
+
+let horario = "";
+
+if (horaCompleta < "12:00") {
+  horario = "Bom dia";
+} else if (horaCompleta < "18:00") {
+  horario = "Boa tarde";
+} else {
+  horario = "Boa noite";
+}
+
+console.log(`Hora atual: ${horaCompleta} -> ${horario}`);
