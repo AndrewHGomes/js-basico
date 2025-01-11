@@ -1,3 +1,7 @@
+console.log(12.5 + 33);
+
+console.log(`${10 - 45}`);
+
 const intNumber = 22;
 
 console.log(`${intNumber} | ${typeof intNumber}`);

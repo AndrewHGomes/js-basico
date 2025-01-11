@@ -1,4 +1,4 @@
-console.log("ARRAYS:");
+console.log([]);
 
 const arrayPrototype = new Array(1, 2, 3, 4);
 

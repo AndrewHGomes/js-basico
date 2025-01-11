@@ -1,4 +1,6 @@
-console.log("NULL e UNDEFINED:");
+console.log(undefined);
+
+console.log(null);
 
 const nulo = null;
 
@@ -13,5 +15,9 @@ console.log("null = nulo, vazio");
 console.log("undefined = não definido");
 
 console.log(`null === undefined: ${null === undefined}`);
+console.log(`null == undefined: ${null == undefined}`);
+
+console.log(`null !== undefined: ${null !== undefined}`);
+console.log(`null != undefined: ${null != undefined}`);
 
 console.log("");

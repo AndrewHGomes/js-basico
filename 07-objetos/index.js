@@ -14,6 +14,8 @@ const pessoa = {
 
 console.table(pessoa);
 
+console.log(pessoa.minhaProfissao());
+
 console.log("");
 
 console.log(pessoa.nome);

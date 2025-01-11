@@ -1,11 +1,13 @@
-console.log("BOOLEANS:");
+console.log(true);
+
+console.log(false);
 
 const verdadeiro = true;
 
-console.log(`${verdadeiro} | ${typeof verdadeiro}`);
+console.log(`Verdadeiro: ${verdadeiro} | ${typeof verdadeiro}`);
 
 const falso = false;
 
-console.log(`${falso} | ${typeof falso}`);
+console.log(`Falso: ${falso} | ${typeof falso}`);
 
 console.log("");
