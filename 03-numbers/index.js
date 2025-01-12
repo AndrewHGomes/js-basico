@@ -27,3 +27,9 @@ console.log("");
 const numeroGrande = 99999999999999999999999999999999n;
 
 console.log(`${numeroGrande} | ${typeof numeroGrande}`);
+
+console.log("");
+
+console.log(`O maior número da lista é ${Math.max(85, 23, 1, 102)}`);
+console.log(`Arredondando para baixo: ${Math.floor(25.8)}`);
+console.log(`Arredondando para cima: ${Math.ceil(25.8)}`);

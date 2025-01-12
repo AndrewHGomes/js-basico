@@ -1,23 +1,13 @@
 console.log("Início do programa:");
 
-const nome = "Andrew";
-const idade = 36;
-const casado = true;
-
-if (nome === "Andrew") {
-  console.log("O nome está correto.");
+if (true) {
+  console.log("Se a condição for atendida.");
 }
 
-if (idade === 36) {
-  console.log("Idade está correta.");
-}
+const temperatura = 37;
 
-if (casado) {
-  console.log("É casado.");
-}
-
-if (nome === "Andrew" && idade === 36 && casado) {
-  console.log("Andrew, 36 anos, casado.");
+if (temperatura >= 37) {
+  console.log("Pessoa está com febre.");
 }
 
 console.log("Fim do programa!");

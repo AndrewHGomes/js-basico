@@ -1,32 +1,9 @@
-console.log("Início do programa:");
+console.log("Início da aplicação");
 
-let hora = new Date().getHours();
-let minutos = new Date().getMinutes();
+const isAdmin = true;
 
-let horaCompleta = "";
+const conferirAdmin = isAdmin ? "Administrador" : "Normal";
 
-if (hora < 10) {
-  hora = `0${hora}`;
-} else {
-  hora;
-}
+console.log(`Admin: ${isAdmin} - Usuário é ${conferirAdmin}`);
 
-if (minutos < 10) {
-  minutos = `0${minutos}`;
-} else {
-  minutos;
-}
-
-horaCompleta = `${hora}:${minutos}`;
-
-let horario = "";
-
-if (horaCompleta < "12:00") {
-  horario = "Bom dia";
-} else if (horaCompleta < "18:00") {
-  horario = "Boa tarde";
-} else {
-  horario = "Boa noite";
-}
-
-console.log(`Hora atual: ${horaCompleta} -> ${horario}`);
+console.log("Fim da aplicação");

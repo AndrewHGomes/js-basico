@@ -1,19 +1,17 @@
-const usuario = {
-  nome: prompt("Insira seu primeiro nome:"),
-  sobrenome: prompt("Insira seu sobrenome:"),
-  anoNascimento: Number(prompt("Insira seu ano de nascimento:")),
-  curso: prompt("Insira seu curso:"),
-};
-
-console.log(usuario);
+const nome = prompt("Insira o seu nome:");
+const sobrenome = prompt("Insira o seu sobrenome:");
+const anoNascimento = Number(prompt("Insira o em que você nasceu:"));
+const curso = prompt("Insira o curso pretendido:");
 
 const anoAtual = new Date().getFullYear();
-const idade = anoAtual - usuario.anoNascimento;
+const idade = anoAtual - anoNascimento;
+
+console.log(nome, sobrenome, anoNascimento, anoAtual, idade, curso);
 
 alert(
-  `NOME: ${usuario.nome} ${usuario.sobrenome}
-ANO DE NASCIMENTO: ${usuario.anoNascimento}
+  `NOME: ${nome} ${sobrenome}
+ANO DE NASCIMENTO: ${anoNascimento}
 IDADE: ${idade} anos
-CURSO: ${usuario.curso}
+CURSO: ${curso}
 `
 );
