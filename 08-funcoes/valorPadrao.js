@@ -12,3 +12,5 @@ function dizerOi(nome = "usuário") {
 
 dizerOi("Viviane");
 dizerOi();
+
+console.log("");
