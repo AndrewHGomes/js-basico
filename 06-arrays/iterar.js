@@ -17,9 +17,3 @@ pilotos.forEach((piloto, index) => {
 });
 
 console.log("");
-
-const alonso = pilotos.find((piloto) => {
-  piloto === "Alonso";
-});
-
-console.log(alonso);
