@@ -1,8 +1,8 @@
-const anonymousFunc = function () {
+const anonymaFunc = function () {
   console.log("Uma função anônima.");
 };
 
-anonymousFunc();
+anonymaFunc();
 
 const soma = function (a, b) {
   return `SOMA: ${a} + ${b} = ${a + b}`;
