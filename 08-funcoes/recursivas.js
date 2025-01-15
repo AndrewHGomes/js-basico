@@ -26,3 +26,5 @@ function fatorial(num) {
 }
 
 console.log(fatorial(10));
+
+console.log("");
